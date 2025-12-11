@@ -29,6 +29,7 @@ body {
 html {
   box-sizing: border-box;
   font-size: 100%;
+  scroll-behavior: smooth;
 }
 
 *,
@@ -119,6 +120,7 @@ button {
   background-position: 0 2.1em;
   background-repeat: repeat-x;
   background-size: 8px 2px;
+  cursor: pointer;
 }
 
 a:hover {

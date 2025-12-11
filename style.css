@@ -678,11 +678,12 @@ h1 > span {
   padding-block: 16px;
   padding-inline: 24px;
   border: none;
-  border-bottom: 1px solid var(--text1);
+  border-bottom: 2px solid var(--text1);
   background: transparent;
   font-size: 1rem;
   line-height: 1.625;
   color: var(--text1);
+  transition: border-color 300ms ease;
 }
 
 .contact__control > *::placeholder {

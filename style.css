@@ -167,6 +167,7 @@ svg {
   position: relative;
   z-index: 1;
   margin-block-start: 20px;
+  padding-bottom: 10px;
 }
 
 .header__nav {
